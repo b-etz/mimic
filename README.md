@@ -6,8 +6,8 @@ This repository is the result of analyzing and reverse engineering a proprietary
 
 It is unlikely this system will be revised because of these findings. The manufacturer's own documentation about their affected systems appears to be 10-20 years old. To avoid harm to owners of affected deployments, the specific brand and application will not be published here. However, to maintain the educational value of this repository, all other details of the protocol and testing hardware will be. Example data may also be redacted or randomized to prevent identifying card (or site) serial numbers.
 
-## Liability Disclaimer
-The information shared here has been cleansed of identifying information to the furthest extent possible. To the reader, this information must be used only to legally interact with hardware you own. The owner(s) of, and all contributor(s) to, this repository are not responsible for any injury or harm, including but not limited to physical and monetary damages, which arise from unauthorized use of any of the contents of this repository. There are always personal safety concerns when interacting with energized equipment. This repository and its contents are provided AS IS, with no guarantee of user personal safety or the integrity of their hardware. By using the software, hardware, and information within, you agree to these terms and the repository's license.
+## Disclaimers
+Please see the repository's license agreement for information on warranty, and liability, disclaimers.
 
 ## Background Info (unaffiliated)
 [Laundry Card hack - Hak5 Forums](https://forums.hak5.org/topic/10817-laundry-card-hack/)
