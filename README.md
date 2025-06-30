@@ -6,7 +6,9 @@ This repository is the result of analyzing and reverse engineering a proprietary
 
 It is unlikely this system will be revised because of these findings. The manufacturer's own documentation about their affected systems appears to be 10-20 years old. To avoid harm to owners of affected deployments, the specific brand and application will not be published here. However, to maintain the educational value of this repository, all other details of the protocol and testing hardware will be. Example data may also be redacted or randomized to prevent identifying card (or site) serial numbers.
 
-## Disclaimers
+## Licenses and Disclaimers
+This project is licensed under the [MIT License](LICENSE).
+The hardware is licensed under the [CERN-OHL-P version 2](https://ohwr.org/cern_ohl_p_v2.txt).
 Please see the repository's license agreement for information on warranty, and liability, disclaimers.
 
 ## Background Info (unaffiliated)
