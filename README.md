@@ -2,9 +2,9 @@
 Smart card reader, writer, and emulator for a specific, undisclosed line of value cards
 
 ## About This Repository
-This repository is the result of analyzing and reverse engineering a proprietary contact card communication protocol in active use in the wild for value transfer at vending kiosks. The interface is only compliant with parts 1 and 2 of ISO7816, and relies heavily on security through obscurity. Documentation in this README includes light protocol information, with more detail (flow charts and software) contained within.
+This repository is the product of analyzing and reverse engineering a proprietary contact card communication protocol actively used in the wild for value transfer at machine kiosks. The interface is only compliant with parts 1 and 2 of ISO7816, and it relies heavily on security through obscurity. Documentation in this README includes light protocol information, with more detail (flow charts and software) contained within. I hope these findings inspire security professionals to investigate the capabilities of their "smart" card systems, and operators to adopt vendors that embrace modern security principles.
 
-It is unlikely this system will be revised because of these findings. The manufacturer's own documentation about their affected systems appears to be 10-20 years old. To avoid harm to owners of affected deployments, the specific brand and application will not be published here. However, to maintain the educational value of this repository, all other details of the protocol and testing hardware will be. Example data may also be redacted or randomized to prevent identifying card (or site) serial numbers.
+It is unlikely that the target system will be revised because of these findings. The manufacturer's own documentation about these systems appears to be about 20 years old. To avoid harm to owners of affected deployments, the specific brand and application will not be published here. However, to maintain the educational value of this repository, all other details of the protocol and testing hardware will be. Captured data may be randomized to prevent identification of the card (or site) serial number.
 
 ## Licenses and Disclaimers
 This project is licensed under the [MIT License](LICENSE).
@@ -30,8 +30,8 @@ Saleae Logic software (Linux AppImage)
 
 
 ## Recommendations for Operators
-Migrate from legacy systems to smart card systems that utilize asymmetric cryptography. Get written guarantees of the cryptography in use before agreeing to a site installation.
+Migrate from legacy coin systems to smart card systems that utilize asymmetric cryptography. Get written guarantees of the cryptography in use before agreeing to a site installation. Words like "security", "advanced", and "proprietary" are meaningless without more information, and are certainly not interchangeable with "cryptographic" or "encrypted". Be direct. Ask vendors what information is "transmitted unencrypted" between the interface and the card. If they don't give you a straight answer, move onto someone better.
 
-If migration is impossible, then actively monitor your value transfer equipment for suspected tampering. This may include periodic surveillance reviews.
+If migration is impossible, actively monitor your value transfer equipment for suspected tampering. This may include periodic surveillance reviews. Don't wait for audit time. Speaking of which...
 
 Perform audits of cash flows with your vending equipment, with enough granularity to summarize transactions by equipment and by card number. Replace end-of-life equipment with models capable of performing these audits.
