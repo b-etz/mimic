@@ -8,8 +8,10 @@ It is unlikely this system will be revised because of these findings. The manufa
 
 ## Licenses and Disclaimers
 This project is licensed under the [MIT License](LICENSE).
+
 The hardware is licensed under the [CERN-OHL-P version 2](https://ohwr.org/cern_ohl_p_v2.txt).
-Please see the repository's license agreement for information on warranty, and liability, disclaimers.
+
+Please see both license agreements for information on warranty, and liability, disclaimers.
 
 ## Background Info (unaffiliated)
 [Laundry Card hack - Hak5 Forums](https://forums.hak5.org/topic/10817-laundry-card-hack/)
@@ -20,4 +22,8 @@ Please see the repository's license agreement for information on warranty, and l
 Saleae Logic Pro 8 (Bus Pirate also usable)
 
 ## Recommendations for Operators
-To the extent possible, actively monitor your value transfer equipment for suspected 
+Migrate from legacy systems to smart card systems that utilize asymmetric cryptography. Get written guarantees of the cryptography in use before agreeing to a site installation.
+
+If migration is impossible, then actively monitor your value transfer equipment for suspected tampering. This may include periodic surveillance reviews.
+
+Perform audits of cash flows with your vending equipment, with enough granularity to summarize transactions by equipment and by card number. Replace end-of-life equipment with models capable of performing these audits.
